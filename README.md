@@ -1,7 +1,6 @@
 # MyMVP.io scaffold App
 
-> Nuxt.js + Firebase + Bootstrap Scaffold App
-> Email, Facebook and Google auth ready
+> Nuxt.js + Firebase + Bootstrap Scaffold App. Email, Facebook and Google auth ready.
 
 ## Build Setup
 
