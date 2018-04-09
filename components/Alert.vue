@@ -35,15 +35,6 @@
     },
     methods: {
       ...mapActions('modules/alert', [ 'resetAlert' ])
-    },
-    watch: {
-      // 'alert.show': function (val) {
-      //   if (val === true) {
-      //     setTimeout(() => {
-      //       this.resetAlert()
-      //     }, 3000)
-      //   }
-      // }
     }
   }
 </script>
