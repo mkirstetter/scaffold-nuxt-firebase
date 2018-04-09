@@ -1,0 +1,15 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# Firebase keys
+config/development.js
+config/production.js

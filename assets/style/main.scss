@@ -1,0 +1,19 @@
+// App variables
+@import './_variables.scss';
+
+// Bootstrap Import
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Bootstrap config
+$enable-transitions: true;
+
+// Font Awesome Import
+@import '../../node_modules/font-awesome/css/font-awesome.css';
+
+// Add Google Fonts here..
+// i.e. @import url('https://fonts.googleapis.com/css?family=Nunito|Press+Start+2P');
+
+// Add components files here
+@import './_base.scss';
+@import './_transitions.scss';
+@import './_buttons.scss';
