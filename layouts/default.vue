@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="md" type="faded" variant="light" class="mb-4">
+    <b-navbar toggleable="md" type="faded" variant="light" class="navbar-light mb-4">
       <b-container>
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
         <b-navbar-brand nuxt to="/">MyMVP</b-navbar-brand>
