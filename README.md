@@ -1,6 +1,6 @@
-# weekly.do
+# MyMVP.io scaffold App
 
-> Nuxt.js + Vuetify.js project
+> Nuxt.js + Firebase + Bootstrap Scaffold App
 
 ## Build Setup
 
