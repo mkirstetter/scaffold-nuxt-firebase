@@ -37,13 +37,13 @@
       ...mapActions('modules/alert', [ 'resetAlert' ])
     },
     watch: {
-      'alert.show': function (val) {
-        if (val === true) {
-          setTimeout(() => {
-            this.resetAlert()
-          }, 3000)
-        }
-      }
+      // 'alert.show': function (val) {
+      //   if (val === true) {
+      //     setTimeout(() => {
+      //       this.resetAlert()
+      //     }, 3000)
+      //   }
+      // }
     }
   }
 </script>
@@ -55,5 +55,19 @@
     right: 40px;
     width: 400px;
     z-index: 5000;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+  }
+  @media (max-width: 575px) {
+    #floating_alert {
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 5000;
+      margin-bottom: 0;
+      border-radius: unset;
+    }
   }
 </style>

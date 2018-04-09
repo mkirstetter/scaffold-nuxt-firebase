@@ -1,10 +1,10 @@
 <template>
   <div>
     <b-row>
-      <b-col md="6">
+      <b-col md="6 mb-2">
         <google-sign-in></google-sign-in>
       </b-col>
-      <b-col md="6">
+      <b-col md="6 mb-2">
         <facebook-sign-in></facebook-sign-in>
       </b-col>
     </b-row>
