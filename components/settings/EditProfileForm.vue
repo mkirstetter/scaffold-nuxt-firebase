@@ -79,15 +79,15 @@
             return false
           }
           this.loading = true
-          this.setProfile(this.uid)
+          this.setProfile()
           this.showAlert({
             type: 'success',
             text: 'Success, profile updated'
           })
         })
       },
-      async setProfile (userId, email) {
-        await firebaseApp.database().ref(`users/${userId}`).set({
+      async setProfile () {
+        await firebaseApp.database().ref(`users/${this.uid}`).set({
           firstName: this.firstName,
           lastName: this.lastName,
           company: this.company
